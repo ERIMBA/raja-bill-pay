@@ -1,0 +1,63 @@
+.header{
+    background-color: rgb(43, 247, 105);
+    margin: -20px  0px -10px;
+    text-align: center;
+    font-size: medium;
+    font-weight:lighter;
+    font-style:unset;
+}
+h4{
+    text-align: center;
+}
+h2{
+  padding: 10px;
+}
+.container{
+    background-color: aliceblue;
+    margin: -20px 0px -8px;
+    position: relative;
+}
+.container :hover{
+  color: rgb(0, 180, 0);
+}
+.header :hover{
+  color: rgb(0, 180, 0);
+}
+    * {
+        box-sizing: border-box;
+      }
+      
+      /* Create three equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        margin-top: -20px;
+       height: 290px;
+        
+        
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .column :hover{
+        color: rgb(14, 129, 237);
+      }
+.foo{
+  text-align: center;
+  background-color: #ccc;
+}
+.img1{
+  width: 37%;
+}
+.img2{
+  width: 10%;
+  
+}
+.img3{
+  width: 10%;
+}
